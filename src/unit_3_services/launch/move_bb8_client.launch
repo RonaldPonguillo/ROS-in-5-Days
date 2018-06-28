@@ -1,0 +1,11 @@
+<launch>
+
+    <include file="$(find unit_3_services)/launch/move_bb8_server.launch" />
+    
+    <node pkg="unit_3_services"
+    type="move_bb8_client.py"
+    name="bb8_demo_client"
+    output="screen">
+    </node>
+
+</launch>

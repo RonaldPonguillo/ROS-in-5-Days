@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="simple_topic_publisher" type="simple_topic_publisher.py" name="topic_publisher"
+    output="screen">
+    
+    </node>
+</launch>
